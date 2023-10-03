@@ -55,6 +55,8 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 section {
