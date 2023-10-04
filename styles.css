@@ -70,6 +70,20 @@ main h3 {
   margin: 0;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  margin: 0;
+}
+
 main p {
   font-style: normal;
   font-weight: 400;
@@ -89,9 +103,14 @@ footer {
 }
 
 section {
-  max-width: 1400px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 100px;
+}
+
+section.secondary-section h2,
+h3 {
+  text-align: center;
 }
 
 footer h3 {
@@ -132,7 +151,7 @@ footer a {
   grid-gap: 64px;
 }
 
-.imperial-palace-image {
+.image-responsive {
   max-width: 100%;
   height: auto;
 }
@@ -143,6 +162,43 @@ footer a {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
   margin: 40px;
+}
+
+.secondary-section {
+  background-color: #f8f8f8;
+}
+
+.eatery-image-responsive {
+  max-width: 50%;
+  height: auto;
+  display: block;
+}
+
+.grid-three-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.button {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #c63d2f;
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
